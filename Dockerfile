@@ -24,3 +24,5 @@ RUN npm install
 # Copy the remaining source files in.
 COPY . /habitica
 RUN npm run postinstall
+
+RUN npm run
